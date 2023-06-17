@@ -63,21 +63,22 @@
   background-position: center;
   background-size: cover;
 }
-.game__group__groupe {
-  transition: all 0.8s;
+
+.main__button:hover {
+  color: #FFFFFF;
+  border-color: #EB443F;
+  background-color: #EB443F;
+}
+
+.game__image {
+  transition: all 0.5s;
   border-radius: 16px;
-  width: 379px;
+  width: 378px;
   height: 300px;
 }
 
-.main__button:hover {
-  color: #8d8c8c;
-  border-color: #8d8c8c;
-  box-shadow: 0 0 10px gray;
-}
-
-.game__img:hover {
-  box-shadow: 0 0 10px white;
+.game__image:hover {
+  box-shadow: 0 0 15px #44D2FF;
   color: #8d8c8c;
   border-color: #8d8c8c;
 }
@@ -102,6 +103,12 @@
   justify-content: space-between;
   background-image: url(img/year.png);
   height: 800px;
+}
+.remember_mobile {
+  display: none;
+}
+.remember_image {
+  display: block;
 }
 .remember__heading {
   font-family: "Montserrat";
@@ -140,6 +147,9 @@
 .gamer {
   background-image: url(img/game.png);
   height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .gamer__position {
   display: flex;
@@ -152,6 +162,9 @@
 .under {
   border-top: 1px solid rgba(184, 212, 255, 0.2);
   height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-image: url(img/under_image.png);
 }
 .under__protection {
@@ -172,7 +185,7 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-  .year_mob {
+  .year__mob {
     display: block;
     font-family: "Montserrat";
     font-style: normal;
@@ -195,6 +208,7 @@
   }
   .main {
     height: 735px;
+    background-image: url(img/main_skypro.png);
   }
   .main__header {
     font-family: "Montserrat";
@@ -225,9 +239,9 @@
     flex-direction: column;
     align-items: center;
   }
-  .game__group__groupe {
+  .game__image {
+    width: 343px;
     height: 300px;
-    width: 100%;
   }
   .year {
     display: grid;
@@ -248,6 +262,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 654px;
+  }
+  .remember_mobile {
+    display: block;
+  }
+  .remember_image {
+    display: none;
   }
   .remember__secta {
     grid-column: 1/-1;
@@ -284,12 +304,14 @@
     color: #ffffff;
   }
   .gamer {
+    background-image: url(img/mouse.png);
     height: 800px;
   }
   .gamer__position {
     padding-top: 51px;
   }
   .under {
+    border-top: #000915;
     width: 100%;
     height: 80px;
   }

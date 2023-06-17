@@ -4,6 +4,7 @@
   text-decoration: none;
 }
 
+
 .center {
   padding-left: calc(50% - 705px);
   padding-right: calc(50% - 705px);
@@ -64,22 +65,24 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  &__groupe {
-    transition: all 0.8s;
-    border-radius: 16px;
-    width: 379px;
-    height: 300px;
-  }
+  
 }
-
 .main__button:hover {
-  color: #8d8c8c;
-  border-color: #8d8c8c;
-  box-shadow: 0 0 10px gray;
+  color: #FFFFFF;
+  border-color: #EB443F;
+  background-color: #EB443F;
 }
 
-.game__img:hover {
-  box-shadow: 0 0 10px white;
+.game__image {
+  transition: all 0.5s;
+  border-radius: 16px;
+  width: 378px;
+  height: 300px;
+  
+}
+
+.game__image:hover {
+  box-shadow: 0 0 15px #44D2FF;
   color: #8d8c8c;
   border-color: #8d8c8c;
 }
@@ -104,6 +107,12 @@
   justify-content: space-between;
   background-image: url(img/year.png);
   height: 800px;
+  &_mobile {
+    display: none;
+  }
+  &_image {
+    display: block;
+  }
   &__heading {
     font-family: "Montserrat";
     font-style: normal;
@@ -140,6 +149,9 @@
 .gamer {
   background-image: url(img/game.png);
   height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   &__position {
     display: flex;
     align-items: center;
@@ -152,6 +164,9 @@
 .under {
   border-top: 1px solid rgba(184, 212, 255, 0.2);
   height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-image: url(img/under_image.png);
   &__protection {
     font-family: "Montserrat";
