@@ -5,8 +5,8 @@
 }
 
 .center {
-  padding-left: calc(50% - 665px);
-  padding-right: calc(50% - 665px);
+  padding-left: calc(50% - 705px);
+  padding-right: calc(50% - 705px);
 }
 
 .main {
@@ -23,8 +23,7 @@
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
-  align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main__header_small {
   font-family: "Montserrat";
@@ -32,18 +31,17 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  align-items: center;
   color: #8c8c8c;
   margin-top: 32px;
   margin-bottom: 44px;
 }
 .main__strong {
   font-weight: 900;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main__button {
-  background: #9C0332;
-  border: 1px solid #9C0332;
+  background: #9c0332;
+  border: 1px solid #9c0332;
   box-sizing: border-box;
   border-radius: 20px;
   width: 234px;
@@ -56,30 +54,265 @@
   transition: all 0.5s;
 }
 
-.under {
+.game__group {
   display: flex;
   gap: 32px;
-  background-image: url(img/under.png);
+  background-image: url(img/group_image.png);
   height: 556px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.under__img {
-  transition: all 0.8s;
+
+.main__button:hover {
+  color: #FFFFFF;
+  border-color: #EB443F;
+  background-color: #EB443F;
+}
+
+.game__image {
+  transition: all 0.5s;
   border-radius: 16px;
-  width: 379px;
+  width: 378px;
   height: 300px;
 }
 
-.main__button:hover {
+.game__image:hover {
+  box-shadow: 0 0 15px #44D2FF;
   color: #8d8c8c;
   border-color: #8d8c8c;
-  box-shadow: 0 0 10px gray;
 }
 
-.under__img:hover {
-  box-shadow: 0 0 10px white;
-  color: #8d8c8c;
-  border-color: #8d8c8c;
+.year {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(img/year.png);
+  height: 800px;
+}
+.year__mob {
+  display: none;
+}
+.year__gostik {
+  width: 485px;
+  height: 333px;
+}
+
+.remember {
+  background-image: url(img/remember.png);
+  display: flex;
+  justify-content: space-between;
+  background-image: url(img/year.png);
+  height: 800px;
+}
+.remember_mobile {
+  display: none;
+}
+.remember_image {
+  display: block;
+}
+.remember__heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #ffffff;
+}
+.remember__small {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8c8c8c;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.remember__gostik {
+  width: 485px;
+  height: 334px;
+}
+
+.remember__smalle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8c8c8c;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.gamer {
+  background-image: url(img/game.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gamer__position {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 276px;
+}
+
+.under {
+  border-top: 1px solid rgba(184, 212, 255, 0.2);
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/under_image.png);
+}
+.under__protection {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .year__mob {
+    display: block;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+  .mob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .br {
+    display: none;
+  }
+  .main {
+    height: 735px;
+    background-image: url(img/main_skypro.png);
+  }
+  .main__header {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  .main__header_small {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .main__smalle {
+    display: none;
+  }
+  .game__group {
+    height: 1221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .game__image {
+    width: 343px;
+    height: 300px;
+  }
+  .year {
+    display: grid;
+    height: 654px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .year__secta {
+    grid-column: 1/-1;
+    display: grid;
+    justify-items: center;
+  }
+  .year__gostik {
+    width: 344px;
+    height: 236px;
+    padding-top: 64px;
+  }
+  .remember {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 654px;
+  }
+  .remember_mobile {
+    display: block;
+  }
+  .remember_image {
+    display: none;
+  }
+  .remember__secta {
+    grid-column: 1/-1;
+    display: grid;
+    justify-items: center;
+  }
+  .remember__gostik {
+    width: 344px;
+    height: 231px;
+  }
+  .remember__smalle {
+    display: none;
+  }
+  .remember__heading {
+    font-family: "Montserrat";
+    padding-top: 51px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .remember__small {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  .gamer {
+    background-image: url(img/mouse.png);
+    height: 800px;
+  }
+  .gamer__position {
+    padding-top: 51px;
+  }
+  .under {
+    border-top: #000915;
+    width: 100%;
+    height: 80px;
+  }
 }/*# sourceMappingURL=style.css.map */
