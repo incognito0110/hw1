@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="main center">
-    <header>
-<h1 class="main__header">Добро пожаловать <br>на мой сайт !</h1>
-<h2 class="main__header_small">Вам предстоит пройти несколько увлекательных<br> игр. Если готов нажимай <strong class="main__strong">поехали</strong> и <strong class="main__strong"> приступай </strong></h2>
-<button class="main__button">Поехали!</button>
-</header> 
-</div>
-<div class="under center">
-    <a href="#"><img class="under__img" src="img/Group 1.png" alt="img"></a>
-    <a href="#"><img class="under__img" src="img/Group 2.png" alt="img"></a>
-    <a href="#"><img class="under__img" src="img/Group 3.png" alt="img"></a>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main center">
+      <header class="mob">
+        <h1 class="main__header">Добро пожаловать <br />на мой сайт !</h1>
+        <h2 class="main__header_small">
+          Вам предстоит пройти несколько увлекательных<br class="br"/>
+          игр. Если готов нажимай
+          <strong class="main__strong">поехали</strong> и
+          <strong class="main__strong"> приступай </strong>
+        </h2>
+        <button class="main__button">Поехали!</button>
+      </header>
+    </div>
+    <div class="game__group center">
+      <a href="#"><img class="game__groupe" src="img/Group 1.png" alt="img" /></a>
+      <a href="#"><img class="game__groupe" src="img/Group 2.png" alt="img" /></a>
+      <a href="#"><img class="game__groupe" src="img/Group 3.png" alt="img" /></a>
+    </div>
 
-</div>
-<script src="hw-2.js"></script>
-</body>
+    <div class="year center">
+      <section class="year__secta">
+        <h2 class="remember__heading">Времена года</h2>
+
+        <h3 class="remember__smalle">
+          Вам предстоит пройти несколько увлекательных игр.<br />
+          Если готов нажимай <strong class="main__strong">поехали</strong> и
+          <strong class="main__strong"> приступай </strong>
+          <h3 class="year__mob">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</h3>
+        </h3>
+        <button class="main__button">Поехали</button>
+      </section>
+      <div class="year__image">
+        <img class="year__gostik" src="img/gostik.png" alt="gostik" />
+      </div>
+    </div>
+
+    <div class="remember center">
+      <div class="remember_image">
+        <img class="year__gostik" src="img/remember_gostik.png" alt="gostik" />
+      </div>
+      <section class="remember__secta">
+        <h2 class="remember__heading">Запомни слова</h2>
+        <h3 class="remember__small">
+          При нажатии на кнопку играть, вы увидите несколько слов,<br />
+          которые вам необходимо запомнить.
+        </h3>
+        <button class="main__button">Играть</button>
+      </section>
+    </div>
+
+    <div class="gamer center">
+      <section class="gamer__position">
+        <h2 class="remember__heading">Игра в загадки</h2>
+        <h3 class="remember__small">
+          Компьютер загадывает загадку, вам необходимо ее угадать, если вы
+          дадите не правильный ответ, то компьютер даст вам подсказку. У вас
+          будет три попытки и две подсказки.
+        </h3>
+        <button class="main__button">Играть</button>
+      </section>
+    </div>
+
+    <div class="under">
+      <p class="under__protection">Все права защищены</p>
+    </div>
+
+    <script src="hw-2.js"></script>
+  </body>
 </html>
