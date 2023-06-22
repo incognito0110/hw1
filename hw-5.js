@@ -1,18 +1,18 @@
 
-// function riddles() {
-//   let userAnswer = prompt(`Сидит дед во сто шуб одет кто его раздевает тот слез проливает`);
+function riddles() {
+  let userAnswer = prompt(`Сидит дед во сто шуб одет кто его раздевает тот слез проливает`);
   
-//   if (userAnswer === `лук`) {
-//     alert('угадал');
-//   } else 
-//     alert('не угадал');
-//   let humanAnswer = prompt (`Зимой и летом одним цветом`)
-//   if (humanAnswer === `елка`) {
-//     alert(`угадал`)
-//   } else {
-//     alert(`Не угадал`)
-//   }
-// }
+  if (userAnswer === `лук`) {
+    alert('угадал');
+  } else 
+    alert('не угадал');
+  let humanAnswer = prompt (`Зимой и летом одним цветом`)
+  if (humanAnswer === `елка`) {
+    alert(`угадал`)
+  } else {
+    alert(`Не угадал`)
+  }
+}
 
 // riddles(`Сидит дед во сто шуб одет кто его раздевает тот слез проливает`, `лук`);
 //   riddles(`Зимой и летом одним цветом`, `елка`);
