@@ -14,11 +14,6 @@ function riddles() {
   }
 }
 
-// riddles(`Сидит дед во сто шуб одет кто его раздевает тот слез проливает`, `лук`);
-//   riddles(`Зимой и летом одним цветом`, `елка`);
-
-// question, answer
-
 // // задание 1
 // function refund(a, b) {
 //   if (a >= b) {
@@ -139,4 +134,4 @@ function riddles() {
 //     return console.log("Такого месяца не существует");
 //   }
 // }
-// season(9);
+// season(9)
