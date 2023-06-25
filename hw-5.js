@@ -1,23 +1,18 @@
+function riddles() {
+  let userAnswer = prompt(
+    `Сидит дед во сто шуб одет кто его раздевает тот слез проливает`
+  );
 
-// function riddles() {
-//   let userAnswer = prompt(`Сидит дед во сто шуб одет кто его раздевает тот слез проливает`);
-  
-//   if (userAnswer === `лук`) {
-//     alert('угадал');
-//   } else 
-//     alert('не угадал');
-//   let humanAnswer = prompt (`Зимой и летом одним цветом`)
-//   if (humanAnswer === `елка`) {
-//     alert(`угадал`)
-//   } else {
-//     alert(`Не угадал`)
-//   }
-// }
-
-// riddles(`Сидит дед во сто шуб одет кто его раздевает тот слез проливает`, `лук`);
-//   riddles(`Зимой и летом одним цветом`, `елка`);
-
-// question, answer
+  if (userAnswer === `лук`) {
+    alert("угадал");
+  } else alert("не угадал");
+  let humanAnswer = prompt(`Зимой и летом одним цветом`);
+  if (humanAnswer === `елка`) {
+    alert(`угадал`);
+  } else {
+    alert(`Не угадал`);
+  }
+}
 
 // // задание 1
 // function refund(a, b) {
@@ -101,3 +96,42 @@
 // console.log(cube(9));
 // console.log(cube(10));
 // console.log(cube('dwdw'));
+
+// Задание 7
+// const circle1 = {
+//     radius: 5,
+//     getArea() {
+//       return Math.PI * this.radius ** 2;
+//     },
+//     getPerimeter() {
+//       return 2 * Math.PI * this.radius;
+//     }
+//   };
+  
+//   const circle2 = {
+//     radius: 20,
+//     getArea() {
+//       return Math.PI * this.radius ** 2;
+//     },
+//     getPerimeter() {
+//       return 2 * Math.PI * this.radius;
+//     }
+//   };
+
+// задание 8
+// function season(monthNumber) {
+//   if (!isNaN(monthNumber) && monthNumber >= 0 && monthNumber <= 12) {
+//     if ((monthNumber >= 1 && monthNumber <= 2) || monthNumber === 12) {
+//       return console.log("Зима");
+//     } else if (monthNumber >= 3 && monthNumber <= 5) {
+//       return console.log("Весна");
+//     } else if (monthNumber >= 6 && monthNumber <= 8) {
+//       return console.log("Лето");
+//     } else if (monthNumber >= 9 && monthNumber <= 11) {
+//       return console.log("Осень");
+//     }
+//   } else {
+//     return console.log("Такого месяца не существует");
+//   }
+// }
+// season(9)
