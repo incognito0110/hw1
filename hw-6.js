@@ -16,12 +16,14 @@
 // console.log(num.join(' '));
 
 // задание 4
-const number = [[1, 1, 1][(1, 1, 1)][(1, 1, 1)]];
-for (let numberIn of number) {
-  for (let element of numberIn) {
-    console.log(element);
-  }
-}
+// let array = [];
+// for (let i = 0; i < 3; i++) {
+//   array[i] = [];
+//   for (let j = 0; j < 3; j++) {
+//     array[i][j] = 1;
+//   }
+// }
+// console.log(array);
 
 // Задание 5
 // const number = [1, 1, 1];
@@ -32,7 +34,7 @@ for (let numberIn of number) {
 // const numbers = [9, 8, 7, 'a', 6, 5];
 // const index = 3;
 // numbers.splice(index, 1)
-// console.log(numbers.sort());
+// return(numbers.sort());
 
 // задание 7
 // const numb = [9, 8, 7, 6, 5];
@@ -40,10 +42,8 @@ for (let numberIn of number) {
 // for (let item of numb) {
 //   if (item === question || item === numb) {
 //     alert("Угадал");
-//     break;
 //   } else {
 //     alert("Не угадал");
-//     break;
 //   }
 // }
 
@@ -65,7 +65,7 @@ for (let numberIn of number) {
 
 // Задание 11
 // const array = [14, 2, 33, 41];
-// const quadra = array.map(x => [x * 2])
+// const quadra = array.map(x => x * 2)
 // console.log(quadra);
 
 // Задание 12
