@@ -77,5 +77,5 @@
 // lengthSrt(['день', '', 'на', 'Прекрасно прогулялись сегодня', 'и']);
 
 // Задание 13
-// const filterPositive = (array) => array.filter(el => el < 0);
-// console.log(filterPositive([-12,10,5,-6,56]));
+const filterPositive = (array) => array.filter(el => el < 0);
+console.log(filterPositive([-12,10,5,-6,56]));
