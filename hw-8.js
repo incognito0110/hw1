@@ -43,19 +43,19 @@
 // Задание 4
 
 // Задание 5
-// function delayForSecond(cb) {
-//   setTimeout(() => {
-//     console.log("Прошла одна секунда");
-//     if (cb) {
-//       cb();
-//     }
-//   }, 1000);
-// }
+function delayForSecond(cb) {
+  setTimeout(() => {
+    console.log("Прошла одна секунда");
+    if (cb) {
+      cb();
+    }
+  }, 1000);
+}
 
-// function sayHi(name) {
-//   console.log(`Привет, ${name}!`);
-// }
-// setTimeout(() => {
-//   sayHi("Глеб");
-// }, 2000);
-// delayForSecond();
+function sayHi(name) {
+  console.log(`Привет, ${name}!`);
+}
+setTimeout(() => {
+  sayHi("Глеб");
+}, 2000);
+delayForSecond();
